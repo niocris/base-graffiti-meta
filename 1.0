@@ -1,0 +1,9 @@
+git clone https://github.com/niocris/base-graffiti-meta.git
+cd base-graffiti-meta
+
+# Инициализация Foundry и deps
+forge init --no-commit --force .
+forge install --no-commit foundry-rs/forge-std@v1.9.6
+
+# Создай структуру
+mkdir -p src script scripts
